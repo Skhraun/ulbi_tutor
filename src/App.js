@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import Counter from "./component/Counter";
+import ClassCounter from "./component/ClassCounter";
 
 function App() {
   const [value, setValue] = useState('Text')
@@ -7,7 +7,7 @@ function App() {
   
   return (
     <div className="App">
-      <Counter/>
+      <ClassCounter/>
     </div>
   );
 }
