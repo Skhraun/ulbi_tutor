@@ -1,5 +1,7 @@
 import React, { useState } from "react";
 import ClassCounter from "./component/ClassCounter";
+import PostItem from "./component/PostItem";
+import './styles/App.css'
 
 function App() {
   const [value, setValue] = useState('Text')
@@ -7,7 +9,7 @@ function App() {
   
   return (
     <div className="App">
-      <ClassCounter/>
+      <PostItem post={{id: 1, title: 'Javascript', body: 'Description'}}/>
     </div>
   );
 }
