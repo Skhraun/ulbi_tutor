@@ -14,9 +14,16 @@ function App() {
 
   return (
     <div className="App">
+      <form>
+        <input type="text" placeholder="Name of post"/>
+        <input type="text" placeholder="Description of post"/>
+        <button>Create post</button>
+      </form>
       <PostList posts={posts} title="List of posts(1)"/>
     </div>
   );
 }
 
 export default App;
+
+//time 42:40
